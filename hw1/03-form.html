@@ -8,7 +8,29 @@
     <link rel="stylesheet" href="03-form.css" />
   </head>
   <body>
-    <!-- add your code below -->
-    <p>exercise #3 - creating a form</p>
+    <form>
+      <h1>Contact Form</h1>
+      <div>
+      <label for="fname"><strong>Name </strong><b style="color:teal;">(required)</b></label><br>
+      <input type="text" id="fname" name="fname" class="tb" required><br>
+      <label for="gmail"><strong>Email Address </strong><b style="color:teal;">(required)</b></label><br>
+      <input type="email" id="gmail" name="gmail" class="tb" required><br>
+      
+      
+      
+      <label for="texta"><strong>Comments?</strong> </label><br>
+    
+      <textarea name="texta" id="texta" cols="50" rows="10"></textarea>
+
+      <input type="checkbox" name="sub2" id="sub2" value="newsletter">
+      <label for="sub2">Sign Up for the newsletter</label><br>
+
+      <br>
+      
+      <button class="btn" id="fst">Submit</button>
+      
+    </div>
+
+    </form>
   </body>
 </html>

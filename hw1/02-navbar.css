@@ -1,7 +1,61 @@
 * {
   font-family: sans-serif;
   font-size: 1.1em;
-  color: #333;
+  color: rgb(10, 10, 10);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 50px;
+  overflow: hidden;
 }
 
-/* The accent color used is #008080 */
+li {
+  display: inline;
+  padding: 15px;
+  background-color: rgb(250, 250, 250);
+
+}
+li a {
+  display: inline;
+  padding: 20px;
+  text-decoration: none;
+  background-color: rgb(250, 250, 250);
+}
+
+a:focus{
+  color:teal;
+  text-decoration: underline;
+}
+
+
+@media screen and (max-width: 900px) {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 50px;
+    overflow: hidden;
+  }
+  
+  li {
+    display: block;
+    padding: 15px;
+    background-color: rgb(250, 250, 250);
+  
+  }
+  li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background-color: rgb(250, 250, 250);
+  }
+  
+  a:focus{
+    color:teal;
+    text-decoration: underline;
+  }
+
+}
+
+
+

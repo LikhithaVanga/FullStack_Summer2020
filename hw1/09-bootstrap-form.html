@@ -13,6 +13,34 @@
     <title>Bootstrap Form Exercise</title>
   </head>
   <body>
-    /* Add your code here */
+    <div class="container">
+      <form>
+          <h5 class="bold">CONTACT FORM</h5>
+          <div class="form-group">
+              <label for="inputName">Name*</label>
+              <input type="name" class="form-control" 
+                      id="inputName" required ="true">
+          </div>
+          <div class="form-group">
+              <label for="inputEmail">Email*</label>
+              <input type="email" class="form-control" 
+                      id="inputEmail" required ="true">
+          </div>
+          <div class="form-group">
+              <label for="inputComment">Submit Your Message:</label>
+              <textarea class="form-control" id="inputComment" rows="3"></textarea>
+          </div>
+
+          <div class="checkbox">
+            <label><input type="checkbox"> Signup For the Newsletter</label>
+          </div>
+
+          <div class="form-group">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="reset" class="btn btn-secondary">Reset</button>
+              </div>
+      </form>
+  </div>
+   
   </body>
 </html>

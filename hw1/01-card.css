@@ -1,9 +1,76 @@
 body {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 20px;
-  color: #555;
+  color: rgb(37, 35, 35);
 }
 
 a {
-  color: rgb(0, 96, 96);
+  color:blue;
+  text-decoration: none
 }
+
+.column {
+  float: left;
+  width: 25%;
+  height: 25%;
+  padding: 0 2px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the counter cards */
+.card {
+  padding: 50px;
+  text-align: left;
+  background-color: #fffbfb;
+  border-style: solid;
+  border-color: rgb(87, 84, 84);
+
+}
+img{
+  max-width: 100%;
+}
+
+
+@media screen and (min-width: 320px) {
+  a {
+    color:blue;
+    text-decoration: none
+  }
+ 
+  img{
+    max-width: 100%;
+  }
+  
+  .column {
+    float: left;
+    padding:2px 2px;
+    width:25%;
+    height:25%;
+  }
+
+  /* Style the counter cards */
+  .card {
+    padding:0 5px;
+    text-align: left;
+    background-color: #fffbfb;
+    border-style: solid;
+    border-color: rgb(87, 84, 84);
+    width: 5px 5px;
+  
+  }
+
+}
+
+
+
+
+
+
+
+

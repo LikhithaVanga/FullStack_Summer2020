@@ -6,10 +6,73 @@
 
 .grid-item {
   margin: 1px;
-  padding: 10px;
+ 
   background-color: purple;
   color: white;
   text-align: center;
+  padding: 10px 2px 35px 10px;
 }
+
+.grid-container {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.item1{
+  grid-column: span 5;
+}
+.item3{
+  grid-row-start: 2;
+  grid-row-end: span 2;
+  grid-column-start: 3;
+  grid-column-end: 7;
+}
+.item4{
+  grid-row-start: 3;
+  grid-row-end: span 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+ 
+}
+.item9{
+  grid-row-start: 5;
+  grid-column: span 4;
+}
+.item10{
+  grid-column-start: 5;
+  grid-row-start: 5;
+ 
+}
+.item8{
+  grid-column-start: 5;
+  grid-row-start: 4;
+ 
+}
+.item7{
+  grid-column-start: 4;
+  grid-row-start: 4;
+ 
+}
+
+.item6{
+  grid-column-start: 3;
+  grid-row-start: 4;
+ 
+}
+.item2{
+  grid-column-start: 1;
+  grid-row-start: 2;
+ 
+}
+.item5{
+  grid-column-start: 2;
+  grid-row-start: 2;
+ 
+}
+
+
+
 
 /* Add your code here */
