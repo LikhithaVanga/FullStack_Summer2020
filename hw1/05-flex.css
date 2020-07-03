@@ -15,8 +15,7 @@
 }
 
 .item1{
-  flex-wrap: wrap;
-  flex-direction: column-reverse;
+  order:1;
 }
 .flex-item {
   width: 160px;
