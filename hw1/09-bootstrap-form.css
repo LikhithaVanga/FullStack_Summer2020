@@ -21,6 +21,18 @@ form > h5 {
      padding-bottom: 2%;
      text-align: center;   
  }
+ .btn-primary {
+     padding-left: 35px;
+     padding-right: 35px;
+     justify-content:center;
+     align-items: center;
+ }
+ .btn-secondary{
+    padding-left: 35px;
+    padding-right: 40px;
+    justify-content:center;
+    align-items: center;
+ }
 
  
 
