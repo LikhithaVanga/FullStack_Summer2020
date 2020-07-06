@@ -40,6 +40,14 @@ h1{
   
 }
 
+#fname:invalid{ 
+  outline: solid red 2px; 
+}
+
+#gmail:invalid{
+  outline: solid red 2px;
+}
+
 .btn{
   padding: 10px;
   font-size: 20px;
@@ -50,6 +58,8 @@ h1{
 
 
 }
+
+
 
 label{
   padding-top: 10px;
