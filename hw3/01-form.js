@@ -17,7 +17,13 @@ console.log('index.html..');
 app.post('/submit', function (req,res) {
     var name = 'Name: '+ req.body.inputName;
     var email = 'Email: '+ req.body.inputEmail;
-    var comments = 'Comments: '+ req.body.inputComment;
+    if(req.body.inputComment =="" || req.body.inputComment==null){
+        var comments = 'Comments: '+ 'n/a';
+    }
+    else{
+        var comments = 'Comments: '+ req.body.inputComment;
+    }
+    
     if(req.body.chckbox == "on"){
         var newsletter = "Yes, I would like to signup for newsletter."
     }
