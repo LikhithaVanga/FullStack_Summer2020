@@ -1,5 +1,6 @@
 {
   "projects": {
-    "chat": "friendlychat-4c3bb"
+    "chat": "friendlychat-4c3bb",
+    "friend": "friendlychat-4c3bb"
   }
 }
